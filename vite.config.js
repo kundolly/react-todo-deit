@@ -4,8 +4,9 @@ import tailwindcss from '@tailwindcss/vite';
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: '/react2/',
+  //base: '/react2/',
   resolve: {
     alias: [{ find: '@', replacement: '/src' }],
   },
 });
+g;
